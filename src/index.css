@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  margin: 20px;
+}
+
+.Container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #e3ffe3;
+  margin: 50px auto;
+  width: 50%;
+
+}
+
+.Buttons{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Buttons button{
+  background-color: #93ff93;
+  border: 1px solid #93ff93;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: black#869686;
+  margin: 10px 20px;
+  font-size: 1em;
+}
+
+.Buttons button:hover{
+  background-color: #00ff00;
+  transition: linear 0.5s;
+  cursor: pointer;
+}
+
+.Buttons button:active {
+  transform: scale(0.8);
+}
+
+.Table_items{
+  background-color: #ccffcc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px 30px;
+  margin: 20px;
+}
+
+.Table_items > td{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Table_items h5{
+  margin: 5px;
+}
