@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 
-
 const CountryFilter = () =>{
 
     const [countries, setCountry] = useState([]);
@@ -81,9 +80,7 @@ const CountryFilter = () =>{
               <button onClick={() => sorting("name")}>Filter abc</button>
               <button onClick={() => regionResult()}>Filter only Oceania</button>
             </div>
-            <button onClick={() => areaResult(65300)}>Filter by area</button>
-            
-            
+            <button onClick={() => areaResult(65300)}>Filter by area</button> 
           </div>
           {countries.length > 0 && (
             <table>
